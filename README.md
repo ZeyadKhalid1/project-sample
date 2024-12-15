@@ -6,8 +6,8 @@ A modern web application for managing veterinary clinic appointments, pets, and 
 
 - 🔐 User Authentication (Login/Register)
 - 👤 Role-based Access Control (Admin/User)
-- 🐾 Pet Management
-- 📅 Appointment Scheduling & Management
+- 🐾 Pet Registration
+- 📅 Appointment Booking & Management
 - 📱 Responsive Design
 
 ## Tech Stack
@@ -97,20 +97,20 @@ vet-clinic/
 - Role-based access control (Admin/User)
 
 ### Pet Management
-- Add/Edit/Delete pets
-- View pet details
-- Pet history tracking
+- Add new pets
+- View registered pets
+- Delete pets
 
 ### Appointment System
-- Schedule new appointments
+- Book new appointments
 - View upcoming appointments
-- Cancel/Reschedule appointments
-- Admin appointment management
+- Cancel appointments
+- View appointment details
 
-### Admin Dashboard
+### Admin Features
 - View all appointments
-- Manage users
-- System statistics
+- View all users
+- Basic user management
 
 ## Security Features
 
