@@ -1,0 +1,120 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Navbar styles */
+body.dark-mode .navbar {
+    background-color: #2d2d2d !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+    color: #ffffff !important;
+}
+
+/* Card styles */
+body.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
+}
+
+/* Form styles */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #333333;
+    border-color: #404040;
+    color: #ffffff;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* Placeholder text color */
+body.dark-mode .form-control::placeholder {
+    color: #999999;
+}
+
+/* Select dropdown styles */
+body.dark-mode .form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+body.dark-mode .form-select option {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Table styles */
+body.dark-mode table {
+    color: #ffffff;
+}
+
+body.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Alert styles */
+body.dark-mode .alert-info {
+    background-color: #1a3c4d;
+    border-color: #235a70;
+    color: #ffffff;
+}
+
+body.dark-mode .alert-danger {
+    background-color: #4d1a1a;
+    border-color: #702323;
+    color: #ffffff;
+}
+
+/* Badge styles in dark mode */
+body.dark-mode .badge.bg-success {
+    background-color: #198754 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .badge.bg-danger {
+    background-color: #dc3545 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000000 !important;
+}
+
+/* Button styles */
+body.dark-mode .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff;
+}
+
+/* Label and text styles */
+body.dark-mode label {
+    color: #ffffff;
+}
+
+body.dark-mode .text-muted {
+    color: #a0a0a0 !important;
+}
+
+/* Link styles */
+body.dark-mode a:not(.btn) {
+    color: #8ab4f8;
+}
+
+body.dark-mode a:not(.btn):hover {
+    color: #adc6f9;
+}

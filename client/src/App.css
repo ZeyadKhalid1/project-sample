@@ -1,0 +1,22 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Dark mode styles */
+[data-theme='dark'] {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Light mode styles */
+[data-theme='light'] {
+  background-color: #ffffff;
+  color: #000000;
+}
