@@ -6,7 +6,7 @@ function Navbar({ isAuthenticated, setIsAuthenticated, userRole }) {
 
     const handleLogout = async () => {
         try {
-            const response = await fetch('/api/logout', {
+            const response = await fetch('http://localhost:3001/api/logout', {
                 method: 'POST',
                 credentials: 'include'
             });
@@ -15,7 +15,6 @@ function Navbar({ isAuthenticated, setIsAuthenticated, userRole }) {
                 document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
                 setIsAuthenticated(false);
                 navigate('/login');
-                window.location.reload();
             }
         } catch (error) {
             console.error('Logout failed:', error);
