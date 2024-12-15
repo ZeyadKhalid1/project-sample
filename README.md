@@ -115,8 +115,7 @@ vet-clinic/
 ## Security Features
 
 - JWT-based authentication
-- HTTP-only cookies
-- Password hashing
+- HTTP-only cookies for token storage
+- Password hashing with bcrypt
 - Input validation
-- XSS protection
-- CSRF protection
+- CORS configuration
